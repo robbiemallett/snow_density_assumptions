@@ -67,6 +67,10 @@ def EASE():
     mask = pickle.load( open( "mask_348x348.p", "rb" ) )
     return(mask)
 
+
+# Returns mask on OSISAF grid
+
+
 def OSISAF():
     """
                     "Lakes":0,
@@ -90,6 +94,10 @@ def OSISAF():
     """
     mask = pickle.load( open( "mask_1120x760.p", "rb" ) )
     return(mask)
+
+
+# Plotter function
+
 
 def plot(region_string):
 
