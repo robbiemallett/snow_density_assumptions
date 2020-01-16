@@ -5,6 +5,8 @@ import imageio
 from netCDF4 import Dataset
 import pickle
 
+# Define Functions
+
 def get(string):
     """
                     "Lakes":0,
